@@ -1,0 +1,250 @@
+a {
+text-decoration: none;
+color: currentColor;
+}
+
+header{
+
+    width: 1140px;
+    margin: auto;
+    
+}
+
+main{
+    background: white;
+    width: 1140px;
+    margin: auto;
+}
+main:hover{
+     display: block;
+    
+}
+.nome-site{
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    
+
+.menu a{
+    text-transform: uppercase;
+}
+
+.menu{
+    font-family: 'Amatic SC', cursive;
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 43px;
+    
+   }
+
+.menu li{
+    margin-left: 20px;
+}
+
+
+.logo{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sobre:hover{
+    box-shadow:  5px 5px 5px rgba(0,0,0,0.5); 
+    
+}
+.contato:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: auto;
+}
+
+.redes:hover {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.coluna{
+    width: 350px;
+}
+
+
+p{
+    font-family:'Patrick Hand', cursiva;
+    list-style:none;
+    font-size: 20px;
+    margin:inherit       
+}
+
+.titulo{
+    font-family:'Patrick Hand', cursiva;
+    list-style:none;
+    text-align: center;
+    font-size: 25px;
+    margin:inherit;
+}
+
+.texto{
+    width: 955px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.galeria{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+.galeria img{
+    margin-bottom:40px;
+}
+
+.galeria-home{
+   display: flex;
+   justify-content: space-between;
+    
+   }
+
+.galeria-home img{
+    margin-top: 40px;
+  
+}
+.galeria-home img:hover{
+      transition: 500ms;
+    opacity:50%;
+}
+
+hr{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width:750px;
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+
+
+.voltar{
+      font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    
+}
+.voltar:hover{
+    box-shadow:  5px 5px 5px rgba(0,0,0,0.5); 
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+
+
+.titulocontato{
+    font-family:'Patrick Hand', cursiva;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom:60px;
+}
+
+.textoeformulariocontato{
+    display:flex;
+    justify-content:space-between;
+/*    centralizei o formulário em relação ao conteúdo principal */
+    width:950px;
+    margin:auto;
+}
+
+
+/* modifiquei as linhas horizontais em cima e embaixo do formulário */
+
+hr{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width:750px;
+    margin:auto;
+}
+
+
+.container{
+    font-family: 'Patrick Hand', cursive;
+    width: 50%;
+
+}
+
+.textocontato{
+    width:50%;
+    text-align:center;
+    line-height: 2;
+    font-size:16px;
+    margin-right:30px;
+}
+
+.textoeformulariocontato h2{
+    font-family: 'Patrick Hand', cursive;
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+form{
+    background:#dcdcdc;
+    padding:20px;
+    width:450px;
+    margin-bottom: 10px;
+}
+
+
+input{
+    width:420px;
+    padding:5px;
+}
+
+textarea{
+    width:420px;
+    height:150px;
+    padding:5px;
+}
+
+
+#contact-submit {
+    cursor: pointer;
+    width:116px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Patrick Hand', cursive;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top:10px;
+}
+
+
+#contact-submit:hover{
+    color:white;
+    background:black;
+  

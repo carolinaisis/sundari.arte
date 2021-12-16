@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+  <head>
+       <title> Sundari Arte </title><link rel="stylesheet" href="css/style-site-sundari.css.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    </head>
+  <body>
+<!--      estava faltando o main aqui no html, para alinhar o conteúdo todo -->
+      <main>
+     <header>
+        
+         <nav>
+              <ul class="menu">
+                  <li> <a href=index.htm><h1 class="nome-site">SUNDARI ARTE</h1></a></li>
+                  <li><a href="index.htm"><img class= "logo" src="imagens/logoo.png"></a></li>
+                  <li> <a class="sobre" href="pagina-sobre.html">Sobre</a></li>
+                  <li> <a class="contato" href="pagina-contato02.html">Contato</a></li>
+                  
+                 
+                  <li ><a href="#"><img class="redes"src ="imagens/instagram-hand-drawn-logo.png"></a></li>
+                  <li > <a href="#"><img class="redes"src="imagens/facebook-letter-logo-in-a-square-hand-drawn-outline.png"></a></li>
+                  <li> <a href="#"><img class="redes"src="imagens/behance-hand-drawn-symbol.png"></a>  </li>
+                  <li> <a href="#"><img class="redes"src="imagens/linkedin-logo-hand-drawn-outline.png"></a>
+                  </li>
+             </ul>
+        </nav>
+      </header>
+      
+      <hr>
+      <h2 class="titulocontato">Contato</h2> 
+<!--      Coloquei o que estava em li como div ou deixei no elemento base para que a estrutura fique igual, coloquei um p para cada texto abaixo, fiz uma div para envolver os dois elementos, assim podemos alinhar melhor -->
+      <div class="textoeformulariocontato">
+           <div class="textocontato">
+               <p>ME MANDA UMA MENSAGEM!</p>
+                <p>Escreva sua mensagem, estou ansiosa para te conhecer saber quais são suas ideias e necessidades, saber onde esta seu olhar, e por quem você quer ser visto. <br>
+                    Traga seus projetos, suas ideias e seus sonhos. Vamos tornar tudo realidade só precisamos de um pouco de Arte.                    
+                </p>
+          </div>
+      
+<!--      Tirei os fieldsets e deixei com label para a identificação ficar em cima de cada ítem do formulário -->
+            <div class="container">
+                <form id="contact" action="" method="post">
+                    <p><label for="nome">Nome</label></p>
+                    <input placeholder="Nome" type="text" tabindex="1" required autofocus id="nome">
+                    <p><label for="email">E-mail</label></p>
+                    <input placeholder="E-mail" type="e-mail" tabindex="3" required autofocus id="email">
+                    <p><label for="mensagem">Mensagem</label></p>
+                    <textarea placeholder="Digite sua mensagem aqui..." type="e-mail" tabindex="4" required autofocus id="mensagem"></textarea>
+                    <br>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...sending">Enviar</button>
+                </form>
+              </div>
+    </div>
+            </main>
+          </body>
+          <br>
+          <br>
+        <hr>
+
+     <footer>
+        
+        <ul class="menu">
+            <li> <a class="sobre" href="pagina-sobre.html">Sobre</a></li>
+            <li> <a class="contato" href="pagina-contato02.html">Contato</a></li>
+            
+            <li>
+            <li><a href="#"><img class="redes"src ="imagens/instagram-hand-drawn-logo.png"></a></li>
+            <li> <a href="#"><img class="redes"src="imagens/facebook-letter-logo-in-a-square-hand-drawn-outline.png"></a></li>
+            <li> <a href="#"><img class="redes"src="imagens/behance-hand-drawn-symbol.png"></a>  </li>
+            <li> <a href="#"><img class="redes"src="imagens/linkedin-logo-hand-drawn-outline.png"></a>
+            </li>
+        </ul>
+        
+         <a href="index.htm"class="voltar">voltar</a>
+        
+    </footer>
+        
+
+
+</html>
